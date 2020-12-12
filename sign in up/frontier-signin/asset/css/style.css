@@ -1,0 +1,64 @@
+body{
+	background-color: #e2dfdb;
+}
+
+
+
+.landing_signup_button{
+	font-size: .9rem;
+    color: #fff;
+    background-color: #3f8236;
+    border: none;
+    outline: none;
+    padding: 0.2rem 1.5rem;
+    border-radius: .2rem;
+    font-family: Arial Bold;
+    display: block;
+}
+
+.free_trail_button{
+	font-size: .9rem;
+    color: #1e132d;
+    background-color: #fff;
+    border: none;
+    outline: none;
+    padding: 0.4rem 1.7rem;
+    border-radius: .2rem;
+    font-family: Arial Bold;
+    margin: 1.8rem .5rem;
+    letter-spacing: .7px;
+}
+
+.caption-area {
+    font-family: Arial Regular;
+    color: #91879f;
+    font-size: .9rem;
+    max-width: 700px;
+    display: block;
+    margin: 0 auto;
+}
+
+.pb-4, .py-4 {
+    padding-bottom: 1.5rem!important;
+}
+
+.pt-4, .py-4 {
+    padding-top: 1.5rem!important;
+}
+
+.form_cover {
+    max-width: 450px;
+    display: block;
+    margin: 0 auto;
+}
+
+.form_button{
+	background-color: #f9b249;
+    font-size: 15px;
+}
+
+.copy-right {
+    font-size: .8rem;
+    text-align: center;
+    padding: 1rem 0;
+}

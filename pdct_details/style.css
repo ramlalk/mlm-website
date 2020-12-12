@@ -1,0 +1,259 @@
+body{
+background-color: #EAEAEA;
+font-family: 'Montserrat' sans-serif;
+}
+
+.container{
+padding: 3em;
+}
+
+.content-container{
+margin: 0 auto;
+background-color: white;
+max-width: 700px;
+width: 100%;
+}
+
+.product-image--container{
+margin:0 2em;
+}
+
+.triangle-topleft{
+position: relative;
+width: 0;
+height: 0;
+border-top:100px solid #f9b249;
+border-right:100px solid transparent;
+transition: all ease 0.25s;
+}
+
+.triangle-topleft:hover{
+border-top:100px solid #ffd54d;
+transition: all ease 0.25s;}
+
+.back-arrow{
+cursor: pointer;
+position: absolute;
+top:-90px;
+left:15px;
+background-image: url('https://cdn2.iconfinder.com/data/icons/freecns-cumulus/16/519627-127_ArrowLeft-128.png');
+background-size: 35px 35px;
+background-repeat: no-repeat;
+width: 40px;
+height: 40px;
+}
+
+.product-image--list{
+display: flex;
+padding: 0;
+margin:20px 0px 0px 0px;
+}
+
+.product-image--featured{
+max-height: 200px;
+height: 100%;
+}
+
+.product-image--list li{
+margin:0 5px;
+border:2px solid #EAEAEA;
+border-radius: 5px;
+width: 43px;
+cursor: pointer;
+display: flex;
+justify-content: center;
+overflow: hidden;
+height: 47px;
+transition: all ease 0.25s;
+}
+
+.product-image--list li.item-selected{
+box-shadow: 1px 1px 1px #888888;
+border:2px solid #FFC500;
+transition: all ease 0.25s;
+}
+
+.product-image--item{
+height: 100%;
+}
+
+.title{
+margin:12px 0px 0px 0px;
+font-size: 18px;
+font-weight: 700;
+}
+
+
+.subtitle{
+font-size: 1.25em;
+}
+
+.subtitle-container{
+margin:0.5em 0 0.5em 0;
+opacity: 0.6;
+
+}
+
+p{
+	font-size: 13px;
+}
+.reviews{
+	text-decoration: none;
+}
+
+a:hover.reviews{
+color: #365afc;
+text-decoration: underline;
+}
+
+.emphasize{
+color: #b32600;
+font-size: 1.5em;
+letter-spacing: -2px;
+}
+
+.select-dropdown{
+	max-width: 50px;
+	width: 100%;
+
+}
+
+
+.my-btn{
+background-color: #f9b249;
+border:none;
+border-radius: 5px;
+max-width: 275px;
+margin:20px 0px 20px 0px;
+width: 100%;
+cursor:pointer;
+transition: all ease 0.25s;
+}
+
+.my-btn:hover{
+	box-shadow: 1px 1px 1px #888888;
+	background-color: #ffd54d;
+	transition: all ease 0.25;
+}
+
+.flex-btn{
+display: flex;
+align-items: center;
+}
+
+.cart-icon{
+margin:2px;
+width: 30px;
+height: 30px;
+}
+
+.btn-text{
+font-size: 1.5em;
+margin:0 auto;
+font-weight: bold;
+}
+
+.star i {
+	font-size: 14px;
+	color: #ffc000;
+}
+
+/*svg{
+	width: 14px;
+	fill: #b32600;
+}
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

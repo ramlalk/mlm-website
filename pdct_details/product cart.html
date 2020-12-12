@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="style.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;0,600;0,700;1,400&family=Roboto:ital,wght@0,300;0,400;0,700;1,500&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  </head> 
+  <body>
+
+
+<div class="container">
+  <div class="content-container row">
+    <div class="left-container col-md-6 p-0">
+      <div class="triangle-topleft">
+        <div class="back-arrow" id="buy-toaster"></div>
+      </div>
+      <div class="product-image--container">
+        <img class="product-image--featured img-fluid" id="featured" src="img/ipad.jpg"/>
+        <ul class="product-image--list">
+          <li class="item-selected"><img src="img/ipad.jpg" class="product-image--item img-fluid"/></li>
+          <li><img src="img/ipad.jpg" class="product-image--item img-fluid"/></li>
+          <li><img src="img/ipad.jpg" class="product-image--item img-fluid"/></li>
+          <li><img src="img/ipad.jpg" class="product-image--item img-fluid"/></li>
+          <li><img src="img/ipad.jpg" class="product-image--item img-fluid"/></li>
+        </ul>
+      </div>
+    </div>
+    <div class="right-container col-md-6">
+      <div>
+        <h1 class="title">Black & Decker</h1>
+        <h2 class="subtitle subtitle-container">TR1278B 2-Slice Toaster</h2>
+        <div>
+         <div class="star">
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i> 
+            <span>|</span>
+          <span>
+            <a href="#" class="reviews">
+              232 customer reviews
+            </a>
+          </span> 
+          </div> 
+        </div>
+      </div>
+      <span>
+        <p>Price: 
+          <span class="emphasize">₹ 348 .99</span>
+        </p>
+        <label for="quantity">Quantity:</label>
+        <select name="quantity" class="select-dropdown">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+        </select>
+      </span>
+      <div>
+        <h2 class="title">Product Description</h2>
+        <div class="subtitle-container">
+          <span>Size: 1-Pack</span>
+          <span>|</span>
+          <span>Color: Brown</span>
+        </div>
+        <p class="text-justify">
+          This Black & Decker toaster allows selection 
+          of the perfect toast shade and centers bread for even 
+          toasting results. It has easy crumb removal with the 
+          drop down crumb tray.
+        </p>
+      </div>
+      <div>
+        <button class="my-btn flex-btn">
+          <span>
+            <img src="https://cdn1.iconfinder.com/data/icons/material-core/20/shopping-cart-128.png" class="cart-icon img-fluid"/>
+          </span>
+          <span class="btn-text">Add to Cart
+          </span>
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+
+   <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    <script>
+$('.product-image--list li').hover(function() {
+  var url = $(this).children('img').attr('src');
+  $('.item-selected').removeClass('item-selected');
+  $(this).addClass('item-selected');
+  $('#featured').attr('src', url);
+});
+
+  </script>
+  </body>
+</html>

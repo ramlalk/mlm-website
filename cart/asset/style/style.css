@@ -1,0 +1,60 @@
+h3{
+	font-weight: 350;
+}
+
+h3 span{
+	font-size: 15px;
+}
+
+/*@media only screen and (max-width: 576px) {
+  .close{
+	margin-top: 0px;
+	padding: 0px;
+   }
+}*/
+
+input{
+	width: 100%;
+	max-width: 45px;
+}
+
+.cart-footer{
+	background-color: #000;
+	margin-top: 250px;
+}
+.para-1{
+	font-size: 15px;
+}
+
+li{
+	font-size: 13px;
+}
+
+.btn-primary{
+	background-color: #f9b249;
+	border: none;
+}
+
+
+@media only screen and (max-width: 767px) {
+  .total{
+	text-align: left!important;
+   }
+}
+
+@media only screen and (max-width: 767px) {
+  .amount{
+	text-align: right!important;
+   }
+}
+.col-md-2{
+	width: 50%;
+}
+
+
+
+/*#Capa_1{
+	width: 12px;
+}
+*/
+
